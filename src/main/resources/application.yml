@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://8.131.51.20:3306/testMyBatisPlus?useUnicode=true&characterEncoding=utf8
