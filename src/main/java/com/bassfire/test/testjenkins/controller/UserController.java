@@ -24,4 +24,9 @@ public class UserController {
         List<User> users = userMapper.selectList(null);
         return users;
     }
+
+    @RequestMapping("/easy")
+    public String easyGame(){
+        return "easy jenkins";
+    }
 }
